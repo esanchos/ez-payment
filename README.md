@@ -36,6 +36,11 @@ Include the Internet permission in you `manifest.xml`.
 Just call getCardHash method as below:
 
 ```java
+String cardNumber = "4111111111111111";
+String cardHolderName = "João Matheus";
+String cardExpirationDate = "1225";  //means december of 2015
+String cardCvv = "123";
+		
 ezPayment.getCardHash(
 		cardNumber,
 		cardHolderName,
