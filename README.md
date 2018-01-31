@@ -25,7 +25,7 @@ On you app module `build.gradle`:
 implementation 'com.esanchos.ezpayment:ez-payment:0.0.4'
 ```
 
-Include the Internet permission in you `manifest.xml`.
+Include the Internet permission in your `manifest.xml`.
 
 ```java
 <uses-permission android:name="android.permission.INTERNET"/>
