@@ -1,10 +1,10 @@
-Ez Payment
+# Ez Payment
 
 Thank you for reaching here.
 
 This is Android Library with an static method for you to generate Card Hash to https://pagar.me/ service.
 
-Installation
+## Installation
 
 On your project's `build.gradle`:
 
@@ -31,7 +31,7 @@ Include the Internet permission in you `manifest.xml`.
 <uses-permission android:name="android.permission.INTERNET"/>
 ```
 
-Using the lib
+## Using the lib
 
 Just call getCardHash method as below:
 
