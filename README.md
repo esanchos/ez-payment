@@ -33,7 +33,7 @@ Include the Internet permission in your `manifest.xml`.
 
 ## Using the lib
 
-Just call getCardHash method as below:
+Call getCardHash method as below:
 
 ```java
 String cardNumber = "4111111111111111";
