@@ -11,9 +11,7 @@ On your project's `build.gradle`:
 ```gradle
 allprojects {
     repositories {
-        maven {
-            url 'https://dl.bintray.com/esanchos/ez-payment/'
-        }
+        jcenter()
         ...
     }
 }

@@ -18,9 +18,6 @@ buildscript {
 
 allprojects {
     repositories {
-        maven {
-            url 'https://dl.bintray.com/esanchos/ez-payment/'
-        }
         google()
         jcenter()
     }
